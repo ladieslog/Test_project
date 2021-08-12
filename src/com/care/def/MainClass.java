@@ -1,24 +1,14 @@
 package com.care.def;
 
 import java.util.Scanner;
-<<<<<<< HEAD
+
 
 import com.care.tv_jinsung.Tv_jinsung;
 
 public class MainClass {
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
 		Tv_jinsung tv = new Tv_jinsung();
-		
-		tv.display();
-		
-		
-	}
-}
-=======
-
-public class MainClass {
-	public static void main(String[] args) {
+	
 		Scanner input =new Scanner(System.in);
 		int num;
 		System.out.println("---가전제품---");
@@ -32,6 +22,7 @@ public class MainClass {
 			num=input.nextInt();
 			switch(num) {
 			case 1:
+				tv.display();
 				System.out.println("냉장고"); break;
 			case 2:
 				System.out.println("tv"); break;
@@ -41,4 +32,4 @@ public class MainClass {
 		}
 	}
 }	
->>>>>>> b4798e1ced259aa570a8fb34bf60895d4cb5e0d9
+
