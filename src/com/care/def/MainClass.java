@@ -32,6 +32,7 @@ public class MainClass {
 			System.out.println("4.버전 다름 ");
 			System.out.println("5.레지토리 폭주");
 			System.out.print(">>>> ");
+			
 			num=input.nextInt();
 			switch(num) {
 			case 1:
