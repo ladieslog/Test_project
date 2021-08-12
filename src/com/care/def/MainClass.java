@@ -14,10 +14,14 @@ public class MainClass {
 		Tv_jinsung tv_jinsung = new Tv_jinsung();
 		Tv_ladieslog tv_ladieslog =new Tv_ladieslog();
 
+
+		
+
 		int num;
 		System.out.println("---가전제품---");
 		while(true) {
 			System.out.println("1.냉장고");
+
 
 			System.out.println("2.잘 있죠?");
 			System.out.println("3.다들 잘하죠? ");
@@ -34,14 +38,10 @@ public class MainClass {
 				tv_jinsung.display();
 				tv_ladieslog.display();
 
-				System.out.println("냉장고"); break;
-			case 2:
-				System.out.println("tv"); break;
-			case 3:
-				System.out.println("세탁기"); break;
+				System.out.println("냉장고"); 
+				break;
+			
 			}
 		}
 	}
-
 }	
-
