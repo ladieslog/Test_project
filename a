@@ -1,0 +1,94 @@
+[33mcommit c9392a840283970ea8d7cd0f02c081d674412295[m[33m ([m[1;36mHEAD -> [m[1;32mKJH[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: fbc41ab 3fdc9a8
+Author: KJH <wnsgh9978@naver.com>
+Date:   Thu Aug 12 12:56:57 2021 +0900
+
+    erge branch 'master' of https://github.com/ladieslog/Test_project
+
+[33mcommit fbc41ab6b87357bd3f2d3b37d64ab4f070239789[m[33m ([m[1;31morigin/KJH[m[33m)[m
+Author: KJH <wnsgh9978@naver.com>
+Date:   Thu Aug 12 12:51:32 2021 +0900
+
+    테스트 코드
+
+[33mcommit 3fdc9a8d51c07ea9bfadc2c2b925916b5a2d9214[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: d6025c8 54898d5
+Author: matia005 <matia0529@gmail.com>
+Date:   Thu Aug 12 11:58:34 2021 +0900
+
+    코드 2업로드
+
+[33mcommit d6025c8cfc23a98fc932d5a0726a8b93eff55525[m
+Merge: 974a931 b4798e1
+Author: matia005 <matia0529@gmail.com>
+Date:   Thu Aug 12 11:57:25 2021 +0900
+
+    코드 2업로드
+
+[33mcommit 54898d5b7df2777098077e9c9ec04cc2089fe36a[m
+Merge: 35f55b6 b4798e1
+Author: jinsung <tjd610@naver.com>
+Date:   Thu Aug 12 11:56:02 2021 +0900
+
+    코드
+
+[33mcommit 974a93174de850222d5e206989ca4d82d1788289[m
+Merge: 92a107b f67017d
+Author: matia005 <matia0529@gmail.com>
+Date:   Thu Aug 12 11:55:46 2021 +0900
+
+    코드 2업로드
+
+[33mcommit 35f55b6d4b90d30d5f65e5095e6b50fd1f43e3d2[m[33m ([m[1;31morigin/jinsung[m[33m)[m
+Author: jinsung <tjd610@naver.com>
+Date:   Thu Aug 12 11:43:26 2021 +0900
+
+    tv기능
+
+[33mcommit f67017da0aec9891bec84f0cef6a01bae211b620[m[33m ([m[1;31morigin/ladieslog[m[33m)[m
+Author: matia005 <matia0529@gmail.com>
+Date:   Thu Aug 12 11:41:57 2021 +0900
+
+    tv코드 드디어완성
+
+[33mcommit ff17505e6538b37bb2c2f122556dfaa6d3c27ce6[m
+Author: matia005 <matia0529@gmail.com>
+Date:   Thu Aug 12 11:34:18 2021 +0900
+
+    코드 올라랄
+
+[33mcommit 92a107b1e9a24e117f6ce292e23f8ab6f18123e4[m
+Author: matia005 <matia0529@gmail.com>
+Date:   Thu Aug 12 11:31:01 2021 +0900
+
+    업로드 2
+
+[33mcommit b4798e1ced259aa570a8fb34bf60895d4cb5e0d9[m
+Author: ladieslog <54969303+ladieslog@users.noreply.github.com>
+Date:   Thu Aug 12 11:25:22 2021 +0900
+
+    Delete src/com/care/tv_ladieslog directory
+
+[33mcommit 3ff518f5710fbd2c223a100bd8f76c35177ced4c[m
+Author: matia005 <matia0529@gmail.com>
+Date:   Thu Aug 12 11:23:22 2021 +0900
+
+    내코드 업로드
+
+[33mcommit 1a8c8765167483d61fabf29a8aaa16b5f0c54a06[m
+Author: matia005 <matia0529@gmail.com>
+Date:   Thu Aug 12 11:20:16 2021 +0900
+
+    코드 작성
+
+[33mcommit cb008e7cb549728104003b357e99265aa29d0e08[m
+Author: jinsung <tjd610@naver.com>
+Date:   Thu Aug 12 11:20:14 2021 +0900
+
+    tv코드 작성
+
+[33mcommit 4cf2e2cb6385c429c2d0fdffa70c1b579310eafd[m
+Author: matia005 <matia0529@gmail.com>
+Date:   Thu Aug 12 10:16:28 2021 +0900
+
+    프로젝트 생성합니다.
