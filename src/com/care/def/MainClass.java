@@ -13,7 +13,9 @@ public class MainClass {
 			System.out.println("3.ºº≈π±‚");
 			System.out.print(">>> : ");
 			num = input.nextInt();
-			
+			System.out.println("ysysysys");
+			System.out.println("ysysysys");
+			System.out.println("ysysysys");
 			switch(num) {
 			case 1:
 				System.out.println("≥√¿Â∞Ì");
@@ -27,5 +29,6 @@ public class MainClass {
 			}
 			
 		}
+		
 	}
 }
