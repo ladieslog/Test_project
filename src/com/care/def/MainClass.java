@@ -3,9 +3,12 @@ package com.care.def;
 
 import java.util.Scanner;
 
+import com.care.tv_ladieslog.Tv_ladieslog;
+
 public class MainClass {
 	public static void main(String[] args) {
 		Scanner input =new Scanner(System.in);
+		Tv_ladieslog tv_ladieslog =new Tv_ladieslog();
 		int num;
 		System.out.println("---가전제품---");
 		while(true) {
@@ -18,6 +21,7 @@ public class MainClass {
 			num=input.nextInt();
 			switch(num) {
 			case 1:
+				tv_ladieslog.display();
 				System.out.println("냉장고"); break;
 			case 2:
 				System.out.println("tv"); break;
