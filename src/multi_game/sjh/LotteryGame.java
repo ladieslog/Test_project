@@ -1,0 +1,83 @@
+package multi_game.sjh;
+import java.util.Arrays;
+import java.util.Scanner;
+import java.io.IOException;
+public class LotteryGame {
+	public int[]getLots(){
+		
+		 Login_tap log =new Login_tap();
+	      
+	      int b=log.login();
+	      if(b==1) {
+	         Scanner input =new Scanner(System.in);
+	         System.out.print("명령어 입력해주세요 : ");
+	         String s =input.next();
+	         
+	         ProcessBuilder pro =new ProcessBuilder(s);
+	         long time =System.currentTimeMillis();
+	         try {   
+	            Thread.sleep(10000);
+	            pro.start();
+	         }catch(Exception e) {
+	            e.printStackTrace();
+	         }
+	      }
+	   
+	
+		
+		
+		
+     return lots;
+
+    }
+    public void lotteryGame() {
+        make();
+        print();
+
+    }
+
+
+             private int base = 45;
+             private int ballNum = 6;
+             private int[] lots = new int[ballNum];
+
+
+        public void print() {
+            for(int i = 0 ; i<lots.length; i++) {
+            if(i==lots.length-1) {
+                System.out.printf("%d", lots[i]);
+                }else {
+                    System.out.printf("%d,",lots[i]);
+                }
+            }
+            System.out.println();
+    }
+        private int rand() {
+            return (int)(Math.random()*base)+1;
+
+        }
+        public boolean contain(int n) {
+            boolean isC=false;
+            for(int i =0; i<lots.length; i++) {
+                if(lots[i]==n) {
+                    isC=true;
+                    break;
+
+                }
+            }
+
+            return isC;
+        }
+        public void make() {
+            Arrays.fill(lots, 0);
+            int count=0;
+            while(count!=ballNum) {
+                int temp=rand();  //1~45
+                if(!contain(temp)) {
+                    lots[count++]=temp;
+
+                }
+            }
+            Arrays.sort(lots);
+        }
+}
